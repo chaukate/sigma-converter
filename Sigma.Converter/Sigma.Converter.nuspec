@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>SigmaConverter</id>
+    <version>0.0.1</version>
+    <title>Sigma Converter</title>
+    <authors>Santosh Shrestha</authors>
+    <owners>AureoleSoft</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <icon>lib\netstandard2.1\sigma-converter.png</icon>
+    <projectUrl>https://github.com/chaukate/sigma-converter</projectUrl>
+    <description>This plugin provides programmatic access to image/file converter.</description>
+    <releaseNotes>Image conversion (image, iformfile and base64 string).</releaseNotes>
+    <copyright>Copyright ©2021 AureoleSoft</copyright>
+    <tags>sigma converter image file conversion aureolesoft</tags>
+  </metadata>
+  <files>
+    <!--netstandard2.1-->
+    <file src="bin\netstandard2.1\Sigma.Converter.dll" target="lib\netstandard2.1\Sigma.Converter.dll" />
+    <file src="bin\Sigma.Converter.xml" target="lib\netstandard2.1\Sigma.Converter.xml"/>
+    <file src="Icon\sigma-converter.png" target="lib\netstandard2.1\sigma-converter.png"/>
+    <!--netcoreapp3.1-->
+    <file src="bin\Debug\netcoreapp3.1\Sigma.Converter.dll" target="lib\netcoreapp3.1\Sigma.Converter.dll" />
+    <file src="bin\Sigma.Converter.xml" target="lib\netcoreapp3.1\Sigma.Converter.xml"/>
+    <file src="Icon\sigma-converter.png" target="lib\netstandard3.1\sigma-converter.png"/>
+    <!--net5.0-->
+    <file src="bin\Debug\net5.0\Sigma.Converter.dll" target="lib\net5.0\Sigma.Converter.dll" />
+    <file src="bin\Sigma.Converter.xml" target="lib\net5.0\Sigma.Converter.xml"/>
+    <file src="Icon\sigma-converter.png" target="lib\net5.0\sigma-converter.png"/>
+  </files>
+</package>

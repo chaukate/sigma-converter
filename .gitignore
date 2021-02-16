@@ -1,0 +1,10 @@
+#ECOM
+#Builds
+.vs/
+.vscode/
+
+#Projects
+Sigma.Converter/bin
+Sigma.Converter/obj
+Sigma.Converter.Test/bin
+Sigma.Converter.Test/obj
